@@ -1,6 +1,6 @@
 # TERRAFORM CONFIGS FOR ESP DATA COLLECTION PROJECT
 
-This repository contains terraform configs for AWS backend server and its init-config files. The configs create VPC, instanciate EC2 server, add the routings, open needed ports, assign public DNS name for EC2 instance. There are 3 different configurations to for ESP data collection:
+This repository contains terraform configs for AWS backend server and its init-config files. The configs create VPC, instantiate EC2 server, add the routings, open needed ports, assign public DNS name for EC2 instance. There are 3 different configurations for ESP data collection:
 
 ### MQTT Mosquitto & Auth + DynamoDB (non visual)
 - creates DynamoDB database (adapt [techrecords_auth.tfvars](mosquito-dynamodb/techrecords_auth.tfvars)) to store ESP data
