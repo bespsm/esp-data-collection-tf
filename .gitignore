@@ -1,0 +1,4 @@
+prometheus-grafana/.terraform*
+prometheus-grafana/terraform*
+mosquito-dynamodb/.terraform*
+mosquito-dynamodb/terraform*
