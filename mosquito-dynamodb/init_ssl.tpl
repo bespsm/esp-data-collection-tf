@@ -25,7 +25,7 @@ write_files:
   path: /opt/ca.crt
 - content: |
     -----BEGIN CERTIFICATE-----
-    PUT HERE CLIENT CERITFICATE FOR MQTT SERVER
+    PUT HERE YOUR CLIENT CERITFICATE FOR MQTT SERVER
     -----END CERTIFICATE-----
   owner: root:root
   permissions: '0664'
