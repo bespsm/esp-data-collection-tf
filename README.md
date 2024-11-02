@@ -23,7 +23,7 @@ terraform apply -var-file=techrecords_ssl.tfvars
 ```
 
 ### Prometheus Pushgateway + Prometheus + Grafana
-- deploys to EC2 grafana, configures prometheus as datasource, creates dashboard to visualise ESP data ((adapt [init_grafana.tfvars](prometheus-grafana/techrecords_auth.tfvars)))
+- deploys to EC2 grafana, configures prometheus as datasource, creates dashboard to visualise ESP data (adapt [techrecords_grafana.tfvars)](prometheus-grafana/techrecords_grafana.tfvars))
 - deploys to EC2 prometheus and prometheus-pushgateway
 ```
 cd prometheus-grafana/
